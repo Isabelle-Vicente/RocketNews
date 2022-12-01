@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+body {
+  position: relative;
+  width: 1440px;
+  height: 780px;
+  
+}
+main{
+  position: absolute;
+  width: 720px;
+  height: 780px;
+  left: 0px;
+  top: 0px;
+
+  /* Black */
+
+  background: #121214;
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  left: 30px;
+  top: 50px;
+}
+div.text {
+  position: absolute;
+  width: 647px;
+  height: 102px;
+  left: 36px;
+  top: 236px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+div h1 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  /* Green */
+
+  color: #08c05e;
+}
+div p span {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+div p {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+form {
+  position: absolute;
+  width: 798px;
+  height: 84px;
+  left: 36px;
+  top: 388px;
+}
+label {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  /* or 19px */
+
+  color: #a8a8a8;
+ 
+}
+div.input {
+  position: absolute;
+  width: 798px;
+  height: 48px;
+  margin-top: 17px;
+
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  
+}
+input {
+  position: absolute;
+  width: 750px;
+  height: 48px;
+ 
+  background: #ffffff;
+  
+}
+button {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 701px;
+  border: none;
+
+  background: #8257e5;
+}
+
+div.link {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 196px;
+  height: 24px;
+  left: 36px;
+  top: 522px;
+}
+div.link p {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  /* or 19px */
+
+  /* Purple */
+
+  color: #8257e5;
+}
+
+aside img {
+  position: absolute;
+  width: 1175px;
+  height: 784px;
+  left: 376px;
+  top: 0px;
+  z-index: -10;
+}
